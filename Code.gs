@@ -5,7 +5,7 @@ function myFunction() {
  var proj=mat[0].replace('[','');
  var dataset=mat[1];
   Logger.log(proj);
-  Logger.log(dataset);
+
 }
 function doPost(e) {
 PropertiesService.getScriptProperties().setProperty('authData', JSON.stringify(e));
