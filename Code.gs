@@ -4,7 +4,7 @@ function myFunction() {
  mat=mat[0].split(":");
  var proj=mat[0].replace('[','');
  var dataset=mat[1];
-  Logger.log(proj);
+ 
 
 }
 function doPost(e) {
